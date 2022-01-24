@@ -1,0 +1,19 @@
+.food {
+    background-color: $accent-color;
+}
+.food__container {
+    padding-top: 107px;
+    padding-bottom: 96px;
+    @include flex;
+    justify-content: space-around;
+}
+.food__title {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #fff;
+    margin: 0;
+}
+.food__link {
+    color: #1F98F0;
+}

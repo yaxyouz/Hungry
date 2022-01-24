@@ -1,0 +1,40 @@
+.update__container {
+    padding-top: 120px;
+    padding-bottom: 128px;
+}
+.update__title {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    margin: 0;
+    text-align: center
+}
+.update__list {
+    @include reset-list;
+    @include flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.update__item {
+    width: 360px;
+    margin-right: 30px;
+}
+.update__item:last-child {
+    margin-right: 0;
+}
+.update__item-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0;
+    padding-top: 25px;
+}
+.update__item-descreption {
+    color: rgba(109, 112, 115, 0.7);
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.update__item-link {
+    color: $accent-color;
+}

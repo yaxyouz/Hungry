@@ -1,0 +1,24 @@
+.logo__container {
+    padding-top: 63px;
+    padding-bottom: 112px;
+}
+.logo__title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: #03101A;
+}
+.logo__list {
+    @include flex;
+    justify-content: center;
+    align-items: center;
+    @include reset-list;
+    padding-top: 45px;
+}
+.logo__item {
+    margin-right: 112px;
+}
+.logo__item:nth-child(4n),
+.logo__item:last-child {
+    margin-right: 0;
+}

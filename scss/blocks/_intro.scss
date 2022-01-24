@@ -1,0 +1,71 @@
+.intro {
+    background-color: $accent-color;
+}
+.intro__container {
+    position: relative;
+}
+.intro__container::after {
+    content: "";
+    width: 448px;
+    height: 698px;
+    display: block;
+    background-image: url("../img/intro-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+.intro__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    color: #fff;
+    padding-top: 152px;
+    padding-bottom: 319px;
+}
+.intro__content::before {
+    content: "";
+    width: 330px;
+    height: 330px;
+    display: block;
+    background-image: url("../img/ellipse-top.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: -50px;
+    right: -89px;
+}
+.intro__content::after {
+    content: "";
+    width: 330px;
+    height: 330px;
+    display: block;
+    background-image: url("../img/ellipse-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    bottom: -40px;
+    right: 320px;
+}
+.intro__title {
+    font-weight: bold;
+    font-size: 51px;
+    margin: 0;
+}
+.intro__descreption {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.intro__link {
+    margin-right: 8px;
+}
+.intro__link:last-child {
+    margin-right: 0;
+}
+.intro__img {
+    display: block;
+    border-radius: 20px;
+}
